@@ -395,11 +395,12 @@ body {
 
 .card {
 	background: white;
-	margin-bottom: 2em;	
+	margin-bottom: 2em;
+	flex-direction: column;
 }
 
 .card a {
-	color: black;
+	color: dodgerblue;
 	text-decoration: none;
 }
 
@@ -409,6 +410,7 @@ body {
 
 .card-content {
 	padding: 1.4em;
+	background-color: #404040;
 }
 
 .card-content h2 {
@@ -420,7 +422,18 @@ body {
 .card-content p {
 	font-size: 95%;
 }
+.title-label, .title-value {
+	font-size: 0.8em;
+}
 
+.title-label {
+	float: left;
+	color: white;
+}
+
+.title-value {
+	float: right;
+}
 /* Flexbox stuff */
 
 @media screen and (min-width: 40em) {
