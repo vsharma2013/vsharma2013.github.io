@@ -16,44 +16,49 @@ var links = {
 var data =[
 	{
 		id: 1,
-		name: 'ANN',
-		img: 'https://image.ibb.co/njxAzK/co_nn_r.png',
-		cert: 'https://www.coursera.org/account/accomplishments/verify/4UXHWHH52J6C',
+		name: 'DL Specialization 5c',
+		img: 'https://image.ibb.co/guiHeK/co_dl_ai_5c_r.png',
+		cert: 'https://www.coursera.org/account/accomplishments/specialization/certificate/VXQVE9RBSJMM',
 		auth: 'coursera'
 	},
 	{
 		id: 2,
-		name: 'CNN',
-		img: 'https://image.ibb.co/mdbg6z/co_cnn_r.png',
-		cert: 'https://www.coursera.org/account/accomplishments/verify/B8L27V9F4CZ7',
+		name: 'ANN',
+		img: 'https://image.ibb.co/njxAzK/co_nn_r.png',
+		cert_c: 'https://www.coursera.org/account/accomplishments/verify/4UXHWHH52J6C',
+		cert: 'https://www.dropbox.com/s/52ye7isbtxshggy/DeepLearning-Cert1.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 3,
-		name: 'RNN',
-		img: 'https://image.ibb.co/dZ4ete/co_rnn_r.png',
-		cert: 'https://www.coursera.org/account/accomplishments/verify/9TF9EHFJA3FA',
+		name: 'CNN',
+		img: 'https://image.ibb.co/mdbg6z/co_cnn_r.png',
+		cert_c: 'https://www.coursera.org/account/accomplishments/verify/B8L27V9F4CZ7',
+		cert: 'https://www.dropbox.com/s/m7d2g6sd3tl4b9o/DeepLearning-Cert4.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 4,
-		name: 'Hyperparameters',
-		img: 'https://image.ibb.co/hWszte/co_hyp_r.png',
-		cert: 'https://www.coursera.org/account/accomplishments/verify/6KSMDKGURUUH',
+		name: 'RNN',
+		img: 'https://image.ibb.co/dZ4ete/co_rnn_r.png',
+		cert_c: 'https://www.coursera.org/account/accomplishments/verify/9TF9EHFJA3FA',
+		cert: 'https://www.dropbox.com/s/53tq185u9zn9vlp/DeepLearning-Cert5.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 5,
-		name: 'Structure MLP',
-		img: 'https://image.ibb.co/hdcXDe/co_st_mlp_r.png',
-		cert: 'https://www.coursera.org/account/accomplishments/verify/VFBYKLNQJNX7',
+		name: 'Hyperparameters',
+		img: 'https://image.ibb.co/hWszte/co_hyp_r.png',
+		cert_c: 'https://www.coursera.org/account/accomplishments/verify/6KSMDKGURUUH',
+		cert: 'https://www.dropbox.com/s/87fh1loywzngft3/DeepLearning-Cert2.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 6,
-		name: 'DL Specialization 5c',
-		img: 'https://image.ibb.co/guiHeK/co_dl_ai_5c_r.png',
-		cert: 'https://www.coursera.org/account/accomplishments/specialization/certificate/VXQVE9RBSJMM',
+		name: 'Structure MLP',
+		img: 'https://image.ibb.co/hdcXDe/co_st_mlp_r.png',
+		cert_c: 'https://www.coursera.org/account/accomplishments/verify/VFBYKLNQJNX7',
+		cert: 'https://www.dropbox.com/s/qq6aqg79hrqjhp9/DeepLearning-Cert3.pdf?dl=0', 
 		auth: 'coursera'
 	},
 	{
@@ -142,7 +147,7 @@ var data =[
 	},
 ];
 
-window.onload = function() {
+function run() {
 	for(var i = 0; i < data.length; i++) {
 		var cards = document.getElementById('cards');
 		var article = document.createElement('article')
@@ -173,3 +178,5 @@ window.onload = function() {
 		cards.appendChild(article);
 	}
 }
+
+window.onload = run;
