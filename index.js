@@ -25,40 +25,40 @@ var data =[
 		id: 2,
 		name: 'ANN',
 		img: 'https://image.ibb.co/njxAzK/co_nn_r.png',
-		cert_c: 'https://www.coursera.org/account/accomplishments/verify/4UXHWHH52J6C',
-		cert: 'https://www.dropbox.com/s/52ye7isbtxshggy/DeepLearning-Cert1.pdf?dl=0',
+		cert: 'https://www.coursera.org/account/accomplishments/verify/4UXHWHH52J6C',
+		cert_d: 'https://www.dropbox.com/s/52ye7isbtxshggy/DeepLearning-Cert1.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 3,
 		name: 'CNN',
 		img: 'https://image.ibb.co/mdbg6z/co_cnn_r.png',
-		cert_c: 'https://www.coursera.org/account/accomplishments/verify/B8L27V9F4CZ7',
-		cert: 'https://www.dropbox.com/s/m7d2g6sd3tl4b9o/DeepLearning-Cert4.pdf?dl=0',
+		cert: 'https://www.coursera.org/account/accomplishments/verify/B8L27V9F4CZ7',
+		cert_d: 'https://www.dropbox.com/s/m7d2g6sd3tl4b9o/DeepLearning-Cert4.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 4,
 		name: 'RNN',
 		img: 'https://image.ibb.co/dZ4ete/co_rnn_r.png',
-		cert_c: 'https://www.coursera.org/account/accomplishments/verify/9TF9EHFJA3FA',
-		cert: 'https://www.dropbox.com/s/53tq185u9zn9vlp/DeepLearning-Cert5.pdf?dl=0',
+		cert: 'https://www.coursera.org/account/accomplishments/verify/9TF9EHFJA3FA',
+		cert_d: 'https://www.dropbox.com/s/53tq185u9zn9vlp/DeepLearning-Cert5.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 5,
 		name: 'Hyperparameters',
 		img: 'https://image.ibb.co/hWszte/co_hyp_r.png',
-		cert_c: 'https://www.coursera.org/account/accomplishments/verify/6KSMDKGURUUH',
-		cert: 'https://www.dropbox.com/s/87fh1loywzngft3/DeepLearning-Cert2.pdf?dl=0',
+		cert: 'https://www.coursera.org/account/accomplishments/verify/6KSMDKGURUUH',
+		cert_d: 'https://www.dropbox.com/s/87fh1loywzngft3/DeepLearning-Cert2.pdf?dl=0',
 		auth: 'coursera'
 	},
 	{
 		id: 6,
 		name: 'Structure MLP',
 		img: 'https://image.ibb.co/hdcXDe/co_st_mlp_r.png',
-		cert_c: 'https://www.coursera.org/account/accomplishments/verify/VFBYKLNQJNX7',
-		cert: 'https://www.dropbox.com/s/qq6aqg79hrqjhp9/DeepLearning-Cert3.pdf?dl=0', 
+		cert: 'https://www.coursera.org/account/accomplishments/verify/VFBYKLNQJNX7',
+		cert_d: 'https://www.dropbox.com/s/qq6aqg79hrqjhp9/DeepLearning-Cert3.pdf?dl=0', 
 		auth: 'coursera'
 	},
 	{
